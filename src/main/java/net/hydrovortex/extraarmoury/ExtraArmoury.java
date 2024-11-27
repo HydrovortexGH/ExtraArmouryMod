@@ -3,6 +3,7 @@ package net.hydrovortex.extraarmoury;
 import com.mojang.logging.LogUtils;
 import net.hydrovortex.extraarmoury.block.ModBlocks;
 import net.hydrovortex.extraarmoury.item.ModItems;
+import net.hydrovortex.extraarmoury.item.ModeCreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -40,6 +41,10 @@ public class ExtraArmoury
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModeCreativeModeTabs.register(modEventBus);
+
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 

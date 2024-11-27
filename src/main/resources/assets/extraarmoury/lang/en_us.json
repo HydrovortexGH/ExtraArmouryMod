@@ -1,5 +1,7 @@
 {
   "item.extraarmoury.rosegold_ingot": "Rosegold Ingot",
 
-  "block.extraarmoury.rosegold_block": "Block of Rosegold"
+  "block.extraarmoury.rosegold_block": "Block of Rosegold",
+
+  "creativetab.extraarmoury.extra_armoury_items":  "Extra Armoury Items"
 }
