@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "models": "extraarmoury:block/rosegold_block"
+      "model": "extraarmoury:block/rosegold_block"
     }
   }
 }
