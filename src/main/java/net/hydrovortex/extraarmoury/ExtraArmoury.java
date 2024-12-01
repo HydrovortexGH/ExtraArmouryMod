@@ -66,10 +66,13 @@ public class ExtraArmoury
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.ROSEGOLDINGOT);
+            event.accept(ModItems.SUPERIORINGOT);
+            event.accept(ModItems.ROSEGOLDUPGRADE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.Rosegold_Block);
+            event.accept(ModBlocks.Superior_Block);
         }
 
     }

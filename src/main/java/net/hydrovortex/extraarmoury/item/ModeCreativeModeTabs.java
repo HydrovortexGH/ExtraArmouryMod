@@ -21,6 +21,9 @@ public class ModeCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ROSEGOLDINGOT.get());
                         output.accept(ModBlocks.Rosegold_Block.get());
+                        output.accept(ModItems.ROSEGOLDUPGRADE.get());
+                        output.accept(ModItems.SUPERIORINGOT.get());
+                        output.accept(ModBlocks.Superior_Block.get());
                     }).build());
 
     public static void register (IEventBus eventBus){

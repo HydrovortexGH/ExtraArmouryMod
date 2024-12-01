@@ -13,6 +13,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> ROSEGOLDINGOT = ITEMS.register("rosegold_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSEGOLDUPGRADE = ITEMS.register("rosegold_upgrade_template",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPERIORINGOT = ITEMS.register("superior_ingot",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
