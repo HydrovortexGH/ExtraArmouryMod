@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "superior_ingot",
+  "ingredients": [
+    {
+      "item": "extraarmoury:superior_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "extraarmoury:superior_ingot"
+  }
+}

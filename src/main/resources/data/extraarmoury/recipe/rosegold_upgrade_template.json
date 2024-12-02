@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:gold_ingot"
+    },
+    "#": {
+      "item": "extraarmoury:rosegold_ingot"
+    },
+    "S": {
+      "item": "extraarmoury:rosegold_upgrade_template"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "extraarmoury:rosegold_upgrade_template"
+  }
+}
