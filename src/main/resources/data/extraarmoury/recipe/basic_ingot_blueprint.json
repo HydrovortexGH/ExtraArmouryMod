@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extraarmoury:basic_blueprint"
+    },
+    {
+      "item": "extraarmoury:rosegold_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "extraarmoury:basic_ingot_blueprint"
+  }
+}

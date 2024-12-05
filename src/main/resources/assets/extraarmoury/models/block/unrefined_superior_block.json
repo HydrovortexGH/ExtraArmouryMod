@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "extraarmoury:block/unrefined_superior_block"
+  }
+}

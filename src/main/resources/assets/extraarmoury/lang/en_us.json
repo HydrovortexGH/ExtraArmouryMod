@@ -2,10 +2,15 @@
   "item.extraarmoury.rosegold_ingot": "Rose Gold Ingot",
   "item.extraarmoury.rosegold_upgrade_template": "Rose Gold Upgrade Template",
   "item.extraarmoury.superior_ingot": "Superior Metal Ingot",
+  "item.extraarmoury.diamond_base": "Diamond Mixture Base",
+  "item.extraarmoury.unrefined_superior_ingot": "Unrefined Superior Metal Ingot",
+  "item.extraarmoury.basic_blueprint": "Basic Blueprint",
+  "item.extraarmoury.basic_ingot_blueprint": "Basic Ingot Blueprint",
 
 
   "block.extraarmoury.rosegold_block": "Block of Rose Gold",
   "block.extraarmoury.superior_block": "Block of Superior Metal",
+  "block.extraarmoury.unrefined_superior_block": "Block of Unrefined Superior Metal",
 
 
   "creativetab.extraarmoury.extra_armoury_items":  "Extra Armoury Items"

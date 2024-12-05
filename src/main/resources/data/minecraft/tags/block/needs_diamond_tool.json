@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "extraarmoury:superior_block"
+    "extraarmoury:superior_block",
+    "extraarmoury:unrefined_superior_block"
   ]
 }

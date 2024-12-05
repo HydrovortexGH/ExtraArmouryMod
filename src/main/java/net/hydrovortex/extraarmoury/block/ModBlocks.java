@@ -24,6 +24,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> Superior_Block = registerBlock("superior_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> Unrefined_Superior_Block = registerBlock("unrefined_superior_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
 
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

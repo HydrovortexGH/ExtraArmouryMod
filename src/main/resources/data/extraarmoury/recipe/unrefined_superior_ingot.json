@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "extraarmoury:diamond_base"
+    },
+    "X": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "extraarmoury:unrefined_superior_ingot"
+  }
+}

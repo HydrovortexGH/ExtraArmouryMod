@@ -17,6 +17,14 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SUPERIORINGOT = ITEMS.register("superior_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMONDBASE = ITEMS.register("diamond_base",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> UNREFINEDSUPERIORINGOT = ITEMS.register("unrefined_superior_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BASICBLUEPRINT = ITEMS.register("basic_blueprint",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BASICINGOTBLURPRINT = ITEMS.register("basic_ingot_blueprint",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

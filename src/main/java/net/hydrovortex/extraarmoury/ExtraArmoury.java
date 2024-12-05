@@ -68,11 +68,16 @@ public class ExtraArmoury
             event.accept(ModItems.ROSEGOLDINGOT);
             event.accept(ModItems.SUPERIORINGOT);
             event.accept(ModItems.ROSEGOLDUPGRADE);
+            event.accept(ModItems.DIAMONDBASE);
+            event.accept(ModItems.UNREFINEDSUPERIORINGOT);
+            event.accept(ModItems.BASICBLUEPRINT);
+            event.accept(ModItems.BASICINGOTBLURPRINT);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.Rosegold_Block);
             event.accept(ModBlocks.Superior_Block);
+            event.accept(ModBlocks.Unrefined_Superior_Block);
         }
 
     }
