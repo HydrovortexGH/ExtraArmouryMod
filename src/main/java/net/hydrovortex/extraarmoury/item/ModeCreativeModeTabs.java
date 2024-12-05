@@ -22,6 +22,7 @@ public class ModeCreativeModeTabs {
                         output.accept(ModItems.ROSEGOLDINGOT.get());
                         output.accept(ModBlocks.Rosegold_Block.get());
                         output.accept(ModItems.ROSEGOLDUPGRADE.get());
+                        output.accept(ModItems.ROSEGOLDMALET.get());
                         output.accept(ModItems.SUPERIORINGOT.get());
                         output.accept(ModBlocks.Superior_Block.get());
                         output.accept(ModItems.DIAMONDBASE.get());

@@ -6,6 +6,7 @@
   "item.extraarmoury.unrefined_superior_ingot": "Unrefined Superior Metal Ingot",
   "item.extraarmoury.basic_blueprint": "Basic Blueprint",
   "item.extraarmoury.basic_ingot_blueprint": "Basic Ingot Blueprint",
+  "item.extraarmoury.rosegold_malet": "Rose Gold Malet",
 
 
   "block.extraarmoury.rosegold_block": "Block of Rose Gold",
@@ -13,5 +14,5 @@
   "block.extraarmoury.unrefined_superior_block": "Block of Unrefined Superior Metal",
 
 
-  "creativetab.extraarmoury.extra_armoury_items":  "Extra Armoury Items"
+  "creative.extraarmoury.extra_armoury_items":  "Extra Armoury Items"
 }

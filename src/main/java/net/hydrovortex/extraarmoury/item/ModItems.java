@@ -1,6 +1,7 @@
 package net.hydrovortex.extraarmoury.item;
 
 import net.hydrovortex.extraarmoury.ExtraArmoury;
+import net.hydrovortex.extraarmoury.item.custom.MaletItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -25,6 +26,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BASICINGOTBLURPRINT = ITEMS.register("basic_ingot_blueprint",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSEGOLDMALET = ITEMS.register("rosegold_malet",
+            () -> new MaletItem(new Item.Properties().durability(64)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

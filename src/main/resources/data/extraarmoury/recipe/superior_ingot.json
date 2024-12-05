@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "extraarmoury:diamond_base"
+    },
+    {
+      "item": "extraarmoury:basic_ingot_blueprint"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "extraarmoury:superior_ingot"
+  }
+}
