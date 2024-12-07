@@ -28,6 +28,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROSEGOLDMALET = ITEMS.register("rosegold_malet",
             () -> new MaletItem(new Item.Properties().durability(64)));
+    public static final RegistryObject<Item> SAPHIRE = ITEMS.register("saphire",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

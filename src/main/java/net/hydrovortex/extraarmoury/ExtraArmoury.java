@@ -72,6 +72,8 @@ public class ExtraArmoury
             event.accept(ModItems.UNREFINEDSUPERIORINGOT);
             event.accept(ModItems.BASICBLUEPRINT);
             event.accept(ModItems.BASICINGOTBLURPRINT);
+            event.accept(ModItems.SAPHIRE);
+
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
