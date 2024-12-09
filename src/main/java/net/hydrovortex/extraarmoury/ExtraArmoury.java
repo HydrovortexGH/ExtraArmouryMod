@@ -80,6 +80,11 @@ public class ExtraArmoury
             event.accept(ModBlocks.Rosegold_Block);
             event.accept(ModBlocks.Superior_Block);
             event.accept(ModBlocks.Unrefined_Superior_Block);
+            event.accept(ModBlocks.Saphire_Block);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
+            event.accept(ModItems.ROSEGOLDMALET);
         }
 
     }

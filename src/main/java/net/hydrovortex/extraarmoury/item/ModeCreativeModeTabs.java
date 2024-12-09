@@ -28,6 +28,8 @@ public class ModeCreativeModeTabs {
                         output.accept(ModItems.DIAMONDBASE.get());
                         output.accept(ModItems.UNREFINEDSUPERIORINGOT.get());
                         output.accept(ModBlocks.Unrefined_Superior_Block.get());
+                        output.accept(ModItems.SAPHIRE.get());
+                        output.accept(ModBlocks.Saphire_Block.get());
                         output.accept(ModItems.BASICBLUEPRINT.get());
                         output.accept(ModItems.BASICINGOTBLURPRINT.get());
                     }).build());

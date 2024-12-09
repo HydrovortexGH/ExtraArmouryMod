@@ -4,11 +4,11 @@
   "group": "unrefined_superior_ingot",
   "ingredients": [
     {
-      "item": "extraarmoury:unrefined_superior_block"
+      "item": "extraarmoury:saphire_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "extraarmoury:unrefined_superior_ingot"
+    "id": "extraarmoury:saphire"
   }
 }
